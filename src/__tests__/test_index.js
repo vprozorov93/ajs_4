@@ -10,7 +10,6 @@ test.each([
     'test %s healthStatus for %o',
     (expected, object) => {
         const result = healthStatus(object)
-        console.log(result)
         expect(result).toBe(expected)
     }
 )
